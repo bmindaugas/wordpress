@@ -34,11 +34,11 @@
 
     <body <?php body_class( $class ); ?>>
     <header>
-        <div class="container">
+        <div class="container">            
             <div class="row">
                 <div class="col-sm-2 logo-holder">
                     <a class="logo" href="<?php echo get_home_url(); ?>" title="<?php bloginfo('name'); ?>">
-                        <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="<?php bloginfo('name'); ?>">
+                        <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/images/FA Vector Icons.png" alt="<?php bloginfo('name'); ?>">
                     </a>
                 </div>
                 <div class="col-sm-10">
@@ -46,6 +46,8 @@
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex2-collapse">
                                 <span class="sr-only"><?php _e("Toggle navigation", "itb"); ?></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>

@@ -1,8 +1,8 @@
 /*
-Theme Name: ITBrolis
+Theme Name: Nesamone
 Theme URI: URL
 Version: 1.0
-Author: Linas Pagirys
+Author: Mindaugas
 Author URI: http://www.itbrolis.lt/
 */
 
@@ -35,7 +35,7 @@ html {
 }
 
 ol, ul {
-  list-style: none;
+  list-style: none; 
 }
 
 table {
@@ -57,8 +57,8 @@ q:before, q:after, blockquote:before, blockquote:after {
   content: none;
 }
 
-a img {
-  border: none;
+a img {  
+  border: solid green;    
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
@@ -105,7 +105,7 @@ a {
 }
 
 a:hover {
-  color: #f14f1d;
+  color: blue;
   text-decoration: none;
   cursor: pointer;
 }
@@ -369,11 +369,11 @@ p.wp-caption-text {
 /* ----------------------------------------- */
 
 header {
-  background: #dcdcdc;
+  background: rgba(255, 0, 0, 0.507);
 }
 
 footer {
-  background: #000;
+  background: rgba(73, 70, 70, 0.479);
   padding: 30px 0;
 }
 
@@ -387,7 +387,7 @@ footer {
 }
 
 nav {
-  width: 100%;
+  width: 100%;     
 }
 
 .sub-menu {
@@ -400,7 +400,7 @@ nav {
 }
 
 .navbar-default .navbar-nav > li:hover .sub-menu {
-  display: block;
+  display: block;    
 }
 
 @media screen and (max-width: 768px) {
@@ -501,7 +501,7 @@ nav {
     top: 17px;
     border-top: 2px solid #ffffff;
     border-left: 2px solid #ffffff;
-  }
+  }  
   #cssmenu > ul > li > a:hover > span::after,
   #cssmenu > ul > li.active > a > span::after,
   #cssmenu > ul > li.open > a > span::after {
@@ -577,14 +577,6 @@ nav {
   }
 
 }
-
-
-
-
-
-
-
-
 
 @media screen and (min-width: 1200px) {
 
